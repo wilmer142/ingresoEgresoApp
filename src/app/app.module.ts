@@ -7,6 +7,7 @@ import { RegisterComponent } from './auth/register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { IngresoEgresoComponent } from './ingreso-egreso/ingreso-egreso.component';
 import { EstadisticaComponent } from './ingreso-egreso/estadistica/estadistica.component';
+import { DetalleComponent } from './ingreso-egreso/detalle/detalle.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EstadisticaComponent } from './ingreso-egreso/estadistica/estadistica.c
     RegisterComponent,
     DashboardComponent,
     IngresoEgresoComponent,
-    EstadisticaComponent
+    EstadisticaComponent,
+    DetalleComponent
   ],
   imports: [
     BrowserModule
