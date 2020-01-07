@@ -6,6 +6,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { IngresoEgresoComponent } from './ingreso-egreso/ingreso-egreso.component';
+import { EstadisticaComponent } from './ingreso-egreso/estadistica/estadistica.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { IngresoEgresoComponent } from './ingreso-egreso/ingreso-egreso.componen
     LoginComponent,
     RegisterComponent,
     DashboardComponent,
-    IngresoEgresoComponent
+    IngresoEgresoComponent,
+    EstadisticaComponent
   ],
   imports: [
     BrowserModule
