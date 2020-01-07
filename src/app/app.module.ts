@@ -9,6 +9,7 @@ import { IngresoEgresoComponent } from './ingreso-egreso/ingreso-egreso.componen
 import { EstadisticaComponent } from './ingreso-egreso/estadistica/estadistica.component';
 import { DetalleComponent } from './ingreso-egreso/detalle/detalle.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     IngresoEgresoComponent,
     EstadisticaComponent,
     DetalleComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
