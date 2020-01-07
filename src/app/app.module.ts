@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { IngresoEgresoComponent } from './ingreso-egreso/ingreso-egreso.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
-    DashboardComponent
+    DashboardComponent,
+    IngresoEgresoComponent
   ],
   imports: [
     BrowserModule
