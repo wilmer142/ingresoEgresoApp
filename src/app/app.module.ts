@@ -16,6 +16,7 @@ import { FormsModule } from "@angular/forms";
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAuthModule } from '@angular/fire/auth';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    AngularFireModule,
+    AngularFireModule.initializeApp(environment.firebase, 'ingreso-egreso-app'),
     AngularFirestoreModule,
     AngularFireAuthModule
   ],
