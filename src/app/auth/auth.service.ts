@@ -3,6 +3,8 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2'
 
+import * as firebase from 'firebase';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -35,5 +37,11 @@ export class AuthService {
   logout(){
     this.router.navigate(['/login']);
     this.afAuth.auth.signOut();
+  }
+
+  initAuthListener() {
+    this.afAuth.authState.subscribe((fbUser: firebase.User) => {
+
+    });
   }
 }
