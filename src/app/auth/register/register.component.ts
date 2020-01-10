@@ -14,6 +14,6 @@ export class RegisterComponent implements OnInit {
   }
 
   onSubmit(data: any) {
-    this.authService.crearUsuario(data.name, data.email, data.password);
+    this.authService.crearUsuario(data.nombre, data.email, data.password);
   }
 }
